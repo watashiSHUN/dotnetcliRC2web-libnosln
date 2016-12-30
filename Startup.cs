@@ -36,6 +36,7 @@ namespace MvcApp
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            ClassLibrary1.Class1.shun();
 
             if (env.IsDevelopment())
             {
